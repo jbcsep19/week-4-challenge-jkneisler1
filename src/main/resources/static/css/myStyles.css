@@ -27,3 +27,10 @@ div.l {
 .wrapper li {
     text-align: left;
 }
+
+.marginAll {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
