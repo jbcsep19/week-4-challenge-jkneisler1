@@ -1,0 +1,29 @@
+/* myStyles.css file */
+/* Aligning text: (l)eft, (r)ight, (c)enter */
+/* To use this, enter the following in the html page: <div class="c"> ... </div> */
+div.c {
+    text-align: center;
+}
+div.r {
+    text-align: right;
+}
+div.l {
+    text-align: left;
+}
+
+/* Aligning lists: example of centering */
+/* To use this, enter the following in the html page: <div class="wrapper"> ... </div> */
+.wrapper {
+    text-align: center;
+}
+.wrapper ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    /* For IE, the outcast */
+    zoom:1;
+    *display: inline;
+}
+.wrapper li {
+    text-align: left;
+}
