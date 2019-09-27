@@ -34,3 +34,11 @@ div.l {
     margin-right: 150px;
     margin-left: 80px;
 }
+
+.styleShort {
+    display: block;
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis"
+}

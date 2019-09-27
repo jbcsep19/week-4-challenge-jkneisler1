@@ -15,10 +15,142 @@
 </head>
 <body>
     <div th:fragment="navlinks">
-        <a href="/home">Home Page</a> - <a href="/authorProfile">Arthor Profile Page</a> - <a href="/bootCampDescription">Boot Camp DescriptionPage</a>
+        <a href="/home">Home Page</a>
+        - <a href="/authorProfile">Arthor Profile Page</a>
+        - <a href="/bootCampDescription">Boot Camp DescriptionPage</a>
+        - <a href="/entireBlog">List of Blog Entries (long version)</a>
+        - <a href="/shortBlog">List of Blog Entries (short version)</a>
     </div>
 
+    <div class="marginAll" th:fragment="appDataLong">
+        <table cellpadding="10">
+            <tr>
+                <th>Date</th>
+                <th>Title</th>
+                <th>Content Body</th>
+            </tr>
+            <tr>
+                <td>09/20/19</td>
+                <td>Bootstrap text</td>
+                <td>The text displayed using bootstrap looks much better than without bootstrap</td>
+            </tr>
+            <tr>
+                <td>09/21/19</td>
+                <td>Difficulties with CSS</td>
+                <td>There are times when CSS stylesheets do not display what I was expecting.</td>
+            </tr>
+            <tr>
+                <td>09/19/19</td>
+                <td>The wonderful thing about Java</td>
+                <td>Java just works</td>
+            </tr>
+            <tr>
+                <td>09/17/19</td>
+                <td>The dot operator</td>
+                <td>Using object oriented java and the dot operator really shortens the amount of code that I have to write; however, sometimes it is hard to read.</td>
+            </tr>
+            <tr>
+                <td>09/26/19</td>
+                <td>Today's background images</td>
+                <td>Some of the background images shown in today's presentations were spectacular.</td>
+            </tr>
+            <tr>
+                <td>09/15/19</td>
+                <td>Using Pseudocode</td>
+                <td>I think using pseudocode really helps in designing a project during the initial phases.</td>
+            </tr>
+            <tr>
+                <td>09/18/19</td>
+                <td>Algorithms</td>
+                <td>Sometimes I make processes too hard or difficult, especially when it comes to creating algorithms.</td>
+            </tr>
+            <tr>
+                <td>09/21/19</td>
+                <td>Using GitHub</td>
+                <td>I am definitely old school.  When someone needs data or code, the first thing that I think of is using email or a fob.  I am now a believer in using GitHub.</td>
+            </tr>
+            <tr>
+                <td>09/21/19</td>
+                <td>GitHub in general</td>
+                <td>Being a newbe, I am surprised how easy using GitHub is.</td>
+            </tr>
+            <tr>
+                <td>09/25/19</td>
+                <td>Core Java</td>
+                <td>I wonder whether we will be learning lambda experssions before the class ends.</td>
+            </tr>
+            <tr>
+                <td>09/26/19</td>
+                <td>Core Java</td>
+                <td>I learned Java many years ago and I now realize how much I have forgotten.</td>
+            </tr>
+        </table>
+    </div>
 
+    <div class="marginAll" th:fragment="appDataShort">
+        <table cellpadding="10">
+            <tr>
+                <th>Date</th>
+                <th>Title</th>
+                <th>Content Body</th>
+            </tr>
+            <tr>
+                <td>09/20/19</td>
+                <td>Bootstrap text</td>
+                <td style="display: block; white-space: nowrap; width: 200px; overflow: hidden; text-overflow: ellipsis">The text displayed using bootstrap looks much better than without bootstrap</td>
+            </tr>
+            <tr>
+                <td>09/21/19</td>
+                <td>Difficulties with CSS</td>
+                <td style="display: block; white-space: nowrap; width: 200px; overflow: hidden; text-overflow: ellipsis">There are times when CSS stylesheets do not display what I was expecting.</td>
+            </tr>
+            <tr>
+                <td>09/19/19</td>
+                <td>The wonderful thing about Java</td>
+                <td style="display: block; white-space: nowrap; width: 200px; overflow: hidden; text-overflow: ellipsis">Java just works</td>
+            </tr>
+            <tr>
+                <td>09/17/19</td>
+                <td>The dot operator</td>
+                <td style="display: block; white-space: nowrap; width: 200px; overflow: hidden; text-overflow: ellipsis">Using object oriented java and the dot operator really shortens the amount of code that I have to write; however, sometimes it is hard to read.</td>
+            </tr>
+            <tr>
+                <td>09/26/19</td>
+                <td>Today's background images</td>
+                <td style="display: block; white-space: nowrap; width: 200px; overflow: hidden; text-overflow: ellipsis">Some of the background images shown in today's presentations were spectacular.</td>
+            </tr>
+            <tr>
+                <td>09/15/19</td>
+                <td>Using Pseudocode</td>
+                <td style="display: block; white-space: nowrap; width: 200px; overflow: hidden; text-overflow: ellipsis">I think using pseudocode really helps in designing a project during the initial phases.</td>
+            </tr>
+            <tr>
+                <td>09/18/19</td>
+                <td>Algorithms</td>
+                <td style="display: block; white-space: nowrap; width: 200px; overflow: hidden; text-overflow: ellipsis">Sometimes I make processes too hard or difficult, especially when it comes to creating algorithms.</td>
+            </tr>
+            <tr>
+                <td>09/21/19</td>
+                <td>Using GitHub</td>
+                <td style="display: block; white-space: nowrap; width: 200px; overflow: hidden; text-overflow: ellipsis">I am definitely old school.  When someone needs data or code, the first thing that I think of is using email or a fob.  I am now a believer in using GitHub.</td>
+            </tr>
+            <tr>
+                <td>09/21/19</td>
+                <td>GitHub in general</td>
+                <td style="display: block; white-space: nowrap; width: 200px; overflow: hidden; text-overflow: ellipsis">Being a newbe, I am surprised how easy using GitHub is.</td>
+            </tr>
+            <tr>
+                <td>09/25/19</td>
+                <td>Core Java</td>
+                <td style="display: block; white-space: nowrap; width: 200px; overflow: hidden; text-overflow: ellipsis">I wonder whether we will be learning lambda experssions before the class ends.</td>
+            </tr>
+            <tr>
+                <td>09/26/19</td>
+                <td>Core Java</td>
+                <td style="display: block; white-space: nowrap; width: 200px; overflow: hidden; text-overflow: ellipsis">I learned Java many years ago and I now realize how much I have forgotten.</td>
+            </tr>
+        </table>
+    </div>
 
     <!-- JS code: insert this just before the </body> tag  (this version fits on a page) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
