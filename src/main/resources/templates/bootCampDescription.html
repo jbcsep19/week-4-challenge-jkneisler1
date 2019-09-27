@@ -24,9 +24,9 @@
 <body>
     <div class="marginAll">
 
-        <div th:replace="base :: navlinks"></div>
-        <br />
         <h2>Java Boot Camp</h2>
+        <br />
+        <div th:replace="base :: navlinks"></div>
         <br />
 
         <h3>America's Promise&nbsp;Java Web Developer Boot Camp</h3>
@@ -82,9 +82,13 @@
         <p><strong>Note: </strong><em><strong>Students must apply to be considered for the program. Dates and locations may be subject
             to change without notice</strong>.&nbsp;</em></p>
 
+        <div><a href="/workforce-development-continuing-education/information-technology/americas-promise-program/apg-application-form.html" title="Apply Now" alt="Apply Now" class="btn purple" target="">APPLY NOW</a></div>
+
     </div>
 
-    <div><a href="/workforce-development-continuing-education/information-technology/americas-promise-program/apg-application-form.html" title="Apply Now" alt="Apply Now" class="btn purple" target="">APPLY NOW</a></div>
+
+    <br />
+    <div th:replace="base :: footer"></div>
 
     <!-- JS code: insert this just before the </body> tag  (this version fits on a page) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

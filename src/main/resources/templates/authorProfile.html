@@ -27,9 +27,15 @@
         <br />
         <div th:replace="base :: navlinks"></div>
         <br />
-        <p>Name: John Kneisler</p>
-        <p>Email: John.Kneisler@gmail.com</p>
-        <p>LinkedIn: </p>
+        <p><b>Name:</b> John Kneisler</p>
+        <img src="../images/JohnK.jpg" alt="Headshot of John K">
+        <br /><br />
+        <p><img src="../images/GMailIcon.png" alt="GMail icon" style="width:50px;height:50px;">&nbsp<b>Email:</b> &nbsp&nbspJohn.Kneisler@gmail.com</p>
+        <p><img src="../images/LinkedInIcon.jpg" alt="LinkedIn icon" style="width:50px;height:50px;">&nbsp<b>LinkedIn:</b> /in/john-kneisler-5b5b12173</p>
+        <p><img src="../images/TwitterIcon.jpg" alt="Twitter icon" style="width:50px;height:50px;">&nbsp<b>Twitter:</b> N/A (I am too old for a twitter account.)</p>
+        <p><img src="../images/FacebookIcon.png" alt="Facebook icon" style="width:50px;height:50px;">&nbsp<b>Facebook:</b> N/A (I am too much of a curmudgeon for a facebook account.)</p>
+        <br />
+        <p><b>Background:</b></p>
         <p>I grew up in Michigan, and lived in North Carolina and Georga before moving to Maryland in 1995.</p>
         <p>At this time I also changed careers from Chemistry to IT.  I began working for a small firm in
         Bethesda as a programmer and systems administrator.  UNIX was the platform that I was familiar with and I
@@ -38,6 +44,9 @@
         <p>It is my hope that classes like the Java Bootcamp will allow me to be more familiar with the current
         technology and who knows, I may go back to programming.</p>
     </div>
+
+    <br />
+    <div th:replace="base :: footer"></div>
 
     <!-- JS code: insert this just before the </body> tag  (this version fits on a page) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

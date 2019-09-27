@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Entire Blog</title>
+    <title>Blog 1</title>
 
     <!-- Link to the bootstrap stylesheet:  insert this just before the </head> tag  (this version fits on a page) -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -23,13 +23,13 @@
 </style>
 <body>
     <div class="marginAll">
-        <h2>Entire Blog Entry Page</h2>
+        <h2>First Blog Page</h2>
         <br />
         <div th:replace="base :: navlinks"></div>
         <br />
     </div>
 
-	<div class="marginAll" th:fragment="appDataLong">
+	<div class="marginAll">
         <table cellpadding="10">
             <tr>
                 <th>Date</th>
@@ -44,6 +44,8 @@
 		</table>
     </div>
 
+    <br />
+    <div th:replace="base :: footer"></div>
 
     <!-- JS code: insert this just before the </body> tag  (this version fits on a page) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
