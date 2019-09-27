@@ -12,6 +12,15 @@
     <!-- END Link to the bootstrap stylesheet -->
 
 </head>
+<style>
+    body {
+        background: url("../images/MorningMistLight.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+</style>
 <body>
     <div class="marginAll">
         <h2>Entire Blog Entry Page</h2>
@@ -22,6 +31,7 @@
 
     <div th:replace="base :: appDataLong"></div>
 
+    
     <!-- JS code: insert this just before the </body> tag  (this version fits on a page) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
